@@ -1,0 +1,114 @@
+@media(max-width:1201px){
+    .about-left p {
+      width: 95%;
+      } 
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"], 
+      #message,
+      select{
+        font-size: 14px;
+      }
+}
+
+@media(max-width:1100px){
+    .about-left p {
+      width: 95%;
+      } 
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"], 
+      #message,
+      select{
+        font-size: 12px;
+      }
+}
+
+@media(max-width:990px){
+    .about-row {
+        width: 100%;
+        height: 150vh;}
+        .about-us {
+            height: 150vh;}
+    .about-info {
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    .about-left p {
+      width: 95%;
+      } 
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"], 
+      #message,
+      select{
+        font-size: 16px;
+      }
+     .about-right{
+        width: 575px;
+        margin-top: 25px;
+     }
+}
+
+@media(max-width:660px){
+    .about-left{
+        width: 510px;
+    }
+    .about-right{
+        width: 455px;
+     }
+}
+@media(max-width:530px){
+    .about-left{
+        width: 415px;
+    }
+    .about-left h2{
+        font-size: 30px;
+    }
+    .about-left p{
+        font-size: 16px;
+    }
+    .about-right{
+        width: 350px;
+     }
+     input[type="text"],
+     input[type="email"],
+     input[type="tel"], 
+     #message,
+     select{
+       font-size: 13px;
+     }
+     button {
+        padding: 10px 15px;
+        font-size: 16px;
+      }
+}
+
+@media(max-width:430px){
+    .about-left{
+        width: 280px;
+    }
+    .about-left h2{
+        font-size: 30px;
+    }
+    .about-left p{
+        font-size: 16px;
+    }
+    .about-right{
+        width: 215px;
+     }
+     input[type="text"],
+     input[type="email"],
+     input[type="tel"], 
+     #message,
+     select{
+       font-size: 10px;
+     }
+     button {
+        padding: 10px 15px;
+        font-size: 16px;
+      }
+}

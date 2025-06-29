@@ -1,0 +1,115 @@
+@media(max-width:1201px){
+    .card-carusel{
+        width: 300px;
+        height: 373px;
+      }
+    .carusel-img{
+        width: 300px;
+        height: 250px;
+      }
+      .card-carusel h5 a{
+        font: 700 22px var(--nunito);
+       
+      }
+      .card-carusel p a{
+        font: 700 14px var(--nunito);
+      }
+}
+@media(min-width:990px) and (max-width:1030px){
+    .card-carusel{
+        width: 280px;
+        height: 373px;
+      }
+    .carusel-img{
+        width: 280px;
+        height: 250px;
+      }
+
+      .card-carusel h5 a{
+        font: 700 18px var(--nunito);
+       
+      }
+      .card-carusel p a{
+        font: 700 14px var(--nunito);
+      }
+}
+@media(max-width:989px){
+    .card-carusel{
+        width: 300px;
+      }
+    .carusel-img{
+        width: 300px;
+      }
+      .card-carusel h5 a{
+        font: 700 18px var(--nunito);
+       
+      }
+      .card-carusel p a{
+        font: 700 14px var(--nunito);
+      }
+
+}
+
+@media(max-width:900px){
+    .card-carusel{
+        width: 280px;
+      }
+    .carusel-img{
+        width: 280px;
+      }
+}
+@media(max-width:820px){
+    .card-carusel{
+        width: 260px;
+      }
+    .carusel-img{
+        width: 260px;
+      }
+}
+@media(max-width:790px){
+    .card-carusel{
+        width: 200px;
+      }
+    .carusel-img{
+        width: 200px;
+      }
+      .card-carusel h5 a{
+        font: 700 14px var(--nunito);
+       
+      }
+      .card-carusel p a{
+        font: 700 13px var(--nunito);
+      }
+}
+@media(max-width:701px){
+    .card-carusel{
+        width: 280px;
+      }
+    .carusel-img{
+        width: 280px;
+      }
+      .card-carusel h5 a{
+        font: 700 14px var(--nunito);
+       
+      }
+      .card-carusel p a{
+        font: 700 13px var(--nunito);
+      }
+}
+@media(max-width:625px){
+    
+    .card-carusel{
+        width: 95%;
+      }
+    .carusel-img{
+        width: 100%;
+      }
+      .card-carusel h5 a{
+        font: 700 22px var(--nunito);
+       
+      }
+      .card-carusel p a{
+        font: 700 18px var(--nunito);
+      }
+}
+

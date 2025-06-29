@@ -1,0 +1,120 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  .navbar nav {
+    margin-left: 0;
+  }
+  .navbar nav ul {
+    gap: 15px;
+  }
+}
+@media (max-width: 1190px) {
+  .banner-down-info h3 {
+    width: 33%;
+    font: 700 28px var(--nunito);
+  }
+  .banner-down-info p {
+    width: 40%;
+    font: 400 16px var(--source);
+  }
+  .banner-down-info p::before {
+    top: 0;
+    left: -5%;
+    width: 4px;
+    height: 90.33px;
+  }
+}
+
+@media (max-width: 990px) {
+  .container {
+    width: 70%;
+  }
+  .navbar {
+    padding: 10px 0;
+  }
+  .hamburger {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  .head-banner-lines h1 {
+    width: 100%;
+  }
+
+  .head-banner-down {
+    height: 50vh;
+  }
+  .head-banner-down-info {
+    height: 50vh;
+  }
+  .banner-down-info {
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .banner-down-info h3 {
+    width: 100%;
+    text-align: center;
+    font: 700 28px var(--nunito);
+  }
+  .banner-down-info p {
+    width: 100%;
+    font: 400 16px var(--source);
+    padding: 10px 0;
+    text-align: center;
+  }
+  .banner-down-info p::before {
+    content: none;
+  }
+}
+
+@media (max-width: 776px) {
+  .banner-down-info {
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+  .head-banner-lines h1 {
+    font-size: 45px;
+  }
+  .banner-down-info h3 {
+    font: 700 28px var(--nunito);
+  }
+  .banner-down-info p {
+    font-size: 15px;
+  }
+}
+
+@media(max-width:700px){
+    .container{
+       width: 95%;
+    }
+    .head-row-1 {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+      }
+}
+
+@media(max-width:465px){
+    
+    .head-up-left ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .head-banner-lines{
+        padding-left: 20px;
+    }
+    .head-banner-lines p{
+        font-size: 18px;
+    }
+    .head-banner-lines h1 {
+        font-size: 25px;
+      }
+}
